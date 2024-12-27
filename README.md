@@ -8,6 +8,14 @@
  digitali e oggetti interattivi in grado di rilevare e controllare oggetti nel mondo fisico e 
  digitale.
 
- ### Link interessanti:
+ Erroneamente si è portati a pensare che il microcontrollore sia una sorta di processore limitato 
+ oppure un mezzo antenato dei più moderni microprocessori, in realtà è un'evoluzione alternativa al 
+ microprocessore con capacità molto diverse:
  
+  ![alt text](img/schema_atmel.bmp))
+  
+ ### Link interessanti:
+
   - https://vimeo.com/131660496
+  - https://youtu.be/xFsFJz4LAkE
+  - https://www.digitalic.it/hardware-software/arduino
