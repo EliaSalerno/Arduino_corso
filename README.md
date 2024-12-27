@@ -11,9 +11,9 @@
  Erroneamente si è portati a pensare che il microcontrollore sia una sorta di processore limitato 
  oppure un mezzo antenato dei più moderni microprocessori, in realtà è un'evoluzione alternativa al 
  microprocessore con capacità molto diverse:
- 
-  ![alt text](img/schema_atmel.bmp))
-  
+ <p aling="center">
+  ![alt text](img/schema_atmel.bmp)
+</p>
  ### Link interessanti:
 
   - https://vimeo.com/131660496
