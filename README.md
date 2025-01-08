@@ -21,3 +21,4 @@ In realtà il nome al progetto è frutto di un'*illuminazione*: *Massimo Banzi* 
   - https://vimeo.com/131660496
   - https://youtu.be/xFsFJz4LAkE
   - https://www.digitalic.it/hardware-software/arduino
+  - https://eliasalerno.github.io/Arduino_corso/
