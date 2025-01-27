@@ -106,8 +106,48 @@
               </figure> 
             </div>-->
           </div>
-          <div class="fs-5 col">
-            <div class="p-3">Custom column padding</div>
+          <div class="text-start fs-5 col">
+            <div class="p-3">
+              <p class="h1 text-secondary">
+                Conosciamo Arduino
+                <img src="img/Scheda_Arduino1.bmp" class="w-50 float-end me-3 mb-3 mx-4" alt="Scheda Arduino">
+              </p>
+              <br>
+              <p>
+                <strong>Componenti: </strong>
+                <ul>
+                  <li>Alimentazione (1);</li>
+                  <li>Pin (2):
+                    <ul>
+                    <li>di alimentazione (2a);</li>
+                    <li>digitali (2b);</li>
+                    <li>analogiche (2c).</li>
+                    </ul>
+                  </li>
+                  <li>ATmega (3);</li>
+                  <li>USB (4).</li>
+                </ul>
+              </p>
+              <br>
+              
+              <br>
+              <p>
+                <ul>
+                  <li><strong>Alimentazione:</strong> qui abbiamo l'alimentazione in corrente continua da 7 a 12V, utilizzabile quando non è utilizzata la porta USB;</li>
+                  <li><strong>USB:</strong> oltre ad alimentare arduino, serve a trasmettere con il pc in fase di sviluppo o di test;</li>
+                  <li><strong>PIN di Alimentazione: </strong>forniscono alimentazione ai vari sistemi collegati ad arduino da 3 a 5V, sono presenti anche i pin di massa rappresentati dalla sigla <strong>gnd;</strong></li>
+                  <li><strong>PIN digitali: </strong>accettano solo i valori "0" e "1" dove "0" corrisponde a 0V mentre "1" a 5V;</li>
+                  <li><strong>PIN analogici: </strong>accettano valori compresi tra "0" e "1023" dove "0" corrisponde a 0V e "1023" a 5V; possono essere anche configurati come digitali.
+                  <br> Questi pin possono essere usati solo per leggere valori analogici, per poterli emettere bisognerebbe fare un power-up anche energetico ad Arduino.
+                  <br> Per emettere tali valori si sfruttano i pin con il simbolo "~" che simulano il segnare analogico mediante una trasmissione veloce di "0" e "1".</li>
+                  <li><strong>ATmega:</strong> nell'immagine usata come esempio abbiamo una sua versione ridotta, ma in molti casi l'ATmega è molto più grande e montato su uno zoccolo, ma soprattutto è estraibile. Comunque stiamo parlando 
+                  del microcontrollore, cuore e mente del progetto Arduino. Come ben sappiamo ha al suo interno il processore e una memoria che monta un bootloader in grado di eseguire il codice montato</li>
+                  <li><strong>USB: </strong>questa porta si trova nei pressi dell'altro microcontrollore presente su questa scheda. Per poter montare il codice sull'ATmega esistono due modalità: la prima 
+                  consiste nell'utilizzare questa porta per collegare arduino al pc e, una volta effettuato il collegamento, si può montare il codice mediante un IDE apposito.</li>
+                </ul>
+              </p>
+              <p>Questi sono i componenti fondamentali, ma oltre a questi troviamo un pulsante di reset che permette il riavvio del sistema, un led built-in connesso con il pin 13</p>
+            </div>
           </div>
         </div>
       </div>
